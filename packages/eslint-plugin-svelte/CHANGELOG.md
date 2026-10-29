@@ -1,5 +1,15 @@
 # eslint-plugin-svelte
 
+## 3.23.2
+
+### Patch Changes
+
+- [#1380](https://github.com/sveltejs/eslint-plugin-svelte/pull/1380) [`9944910`](https://github.com/sveltejs/eslint-plugin-svelte/commit/9944910f4957118ce65b07103f47366dfce56fa8) Thanks [@baseballyama](https://github.com/baseballyama)! - fix(no-navigation-without-resolve): check complete `rel` tokens before exempting external links
+
+- [#1566](https://github.com/sveltejs/eslint-plugin-svelte/pull/1566) [`e49015d`](https://github.com/sveltejs/eslint-plugin-svelte/commit/e49015da617f6683ad5f9878690ed4f7b050eac8) Thanks [@arpitjain099](https://github.com/arpitjain099)! - fix(no-unused-props): fix false positives and negatives around spreads, aliases, dotted keys, and props that share a type
+
+- [#1606](https://github.com/sveltejs/eslint-plugin-svelte/pull/1606) [`78def78`](https://github.com/sveltejs/eslint-plugin-svelte/commit/78def781262e4d947d9dbd797c7614d363fd552d) Thanks [@ozenyunus35](https://github.com/ozenyunus35)! - Allow a comment before a closing token in `svelte/indent` to be aligned with the previous line instead of requiring the indentation of the closing token.
+
 ## 3.23.1
 
 ### Patch Changes
